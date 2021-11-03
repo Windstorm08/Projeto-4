@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: "Courier New", Courier, monospace;
+}
+
+body {
+  animation: gradient 10s ease-in-out alternate infinite;
+  background-image: linear-gradient(45deg, #ee7252, #e73c7e, #23a6d5, #23d5ab);
+  background-repeat: no-repeat;
+  background-size: 300% 300%;
+  display: flex;
+  justify-content: center;
+  height: 100vh;
+}
+
+@keyframes gradient {
+  from {
+    background-position: 0 50%;
+  }
+
+  to {
+    background-position: 100% 50%;
+  }
+}
+
+.container {
+  text-align: center;
+  padding: 20px;
+  height: 100vh;
+}
+
+.page-title {
+  color: #ffffff;
+  margin: 0 0 5px;
+}
+
+.page-subtitle {
+  color: #ffffff;
+  margin-top: 5px;
+}
